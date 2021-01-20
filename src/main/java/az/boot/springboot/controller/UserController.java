@@ -52,9 +52,9 @@ public class UserController {
         return "user-update";
     }
 
-    @PostMapping("/user-update")
-    public String updateUser(User user){
-        userService.saveUser(user);
-        return "redirect:/users";
-    }
+//    @PostMapping("/user-update")
+//    public String updateUser(User user){
+//        userService.saveUser(user);
+//        return "redirect:/users";
+//    }
 }
